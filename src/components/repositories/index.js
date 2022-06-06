@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import * as S from './styled'
-import RepositoryItem from '../RepositoryItem/RepositoryItem'
-import useGitHub from "../../Hooks/gitHubHooks"
+import RepositoryItem from '../repositoryItem/RepositoryItem'
+import useGitHub from "../../hooks/gitHubHooks"
 
 
 function Repositories() {

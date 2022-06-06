@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styled'
-import useGitHub from "../../Hooks/gitHubHooks"
+import useGitHub from "../../hooks/gitHubHooks"
 
 function Profile() {
 	

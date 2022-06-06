@@ -64,7 +64,12 @@ function GitHubProvider({children}) {
             }));
              console.log(data.login, gitHubState)  
            
-        }).finally(() => {
+        }).catch((err) => {
+            setGitHubState((prevState) => ({...prevState, hasUser:false
+
+            }))
+        })
+        .finally(() => {
              setGitHubState((prevState) => ({
             ...prevState,
             loading: !prevState.loading,

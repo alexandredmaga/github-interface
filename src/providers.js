@@ -1,7 +1,7 @@
 import React from "react";
-import {ResetCSS} from "./Global/resetCSS";
-import GitHubProvider from "./Providers/GitHubProvider";
-import App from "./Components/App/App"
+import {ResetCSS} from "./global/resetCSS";
+import GitHubProvider from "./providers/GitHubProvider";
+import App from "./components/app/App"
 
 
 

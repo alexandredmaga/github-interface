@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styled'
-import Header from "../Header"
+import Header from "../header"
 
 function Layout({children}) {
 

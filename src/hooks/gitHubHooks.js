@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {GitHubContext} from "../Providers/GitHubProvider"
+import {GitHubContext} from "../providers/GitHubProvider"
 
 function useGitHub() {
 	const { gitHubState, getUser, getUserRepos, getUserStarred } = useContext(GitHubContext);

@@ -1,9 +1,9 @@
 import './App.css';
-import Layout from "../Layout"
-import Profile from "../Profile"
-import Repositories from "../Repositories"
-import NoSearch from "../NoSearch"
-import useGitHub from "../../Hooks/gitHubHooks"
+import Layout from "../layout"
+import Profile from "../profile"
+import Repositories from "../repositories"
+import NoSearch from "../noSearch"
+import useGitHub from "../../hooks/gitHubHooks"
 
 
 
